@@ -1,4 +1,6 @@
-The Amazing[2018]
+The Amazing. 
+
+© The Amazing | Partisan Records 2018
 
 Website Design by Ellie Rumbold
 ellie.rumbold@gmail.com
