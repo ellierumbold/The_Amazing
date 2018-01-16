@@ -77,11 +77,11 @@
 }
 
 .social-button.email:before {
-  background-color: #4caf50;
+  background-color: #5f596d;
 }
 
 .social-button.email .fa {
-  color: #4caf50;
+  color: #5f596d;
 }
 
 .social-button.youtube:before {
@@ -108,7 +108,7 @@
   color: #00e461;
 }
 
-/*colour fill*/
+/* social button colour fill */
 .social-button.rss:before {
   background-color: #ff6600;
 }
@@ -126,27 +126,6 @@
   color: #fff;
   -webkit-transform: scale(1);
   transform: scale(1);
-}
-
-
-
-/*colour fill*/
-.social-button.rss:before {
-  background-color: #ff6600;
-}
-.social-button.rss .fa {
-  color: #ff6600;
-}
-
-
-.social-button:focus:before, .social-button:hover:before {
-  top: -10%;
-  left: -10%;
-}
-.social-button:focus .fa, .social-button:hover .fa {
-  color: #fff;
-  -webkit-transform: scale(1);
-          transform: scale(1);
 }
 
 /*css for nav bar layout */
