@@ -1,4 +1,4 @@
-/*css for social widgets*/
+/*css for social buttons*/
 
 .social-buttons {
   height: 90px;
@@ -28,6 +28,7 @@
   -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
+
 .social-button:before {
   content: '';
   background-color: #000;
@@ -37,73 +38,96 @@
   top: 90%;
   left: -110%;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
+
 .social-button .fa {
   font-size: 38px;
   vertical-align: middle;
   -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  transform: scale(0.8);
   -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
-//Facbook
+
 .social-button.facebook:before {
   background-color: #3B5998;
 }
+
 .social-button.facebook .fa {
   color: #3B5998;
 }
 
-//Twitter
 .social-button.twitter:before {
   background-color: #55acee;
 }
+
 .social-button.twitter .fa {
   color: #55acee;
 }
 
-//website
 .social-button.website:before {
   background-color: #767676;
 }
+
 .social-button.website .fa {
   color: #767676;
 }
 
-//Email
 .social-button.email:before {
   background-color: #4caf50;
 }
+
 .social-button.email .fa {
   color: #4caf50;
 }
 
-//Youtube
 .social-button.youtube:before {
   background-color: #bb0000;
 }
+
 .social-button.youtube .fa {
   color: #bb0000;
 }
 
-//Instagram
 .social-button.instagram:before {
   background-color: #e95950;
 }
+
 .social-button.instagram .fa {
   color: #e95950;
 }
 
-//Spotify
 .social-button.spotify:before {
   background-color: #00e461;
 }
+
 .social-button.spotify .fa {
   color: #00e461;
 }
+
+/*colour fill*/
+.social-button.rss:before {
+  background-color: #ff6600;
+}
+
+.social-button.rss .fa {
+  color: #ff6600;
+}
+
+.social-button:focus:before, .social-button:hover:before {
+  top: -10%;
+  left: -10%;
+}
+
+.social-button:focus .fa, .social-button:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
 
 
 /*colour fill*/
