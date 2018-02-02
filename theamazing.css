@@ -141,17 +141,22 @@
   top: 40%;
   left: 0;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Vollkorn', serif;
 }
 .container p {
   font-size: 20px;
-  color: #FF5252;
+  color: grey;
+}
+.container h2 {
+  color: white;
+  font-family: 'Vollkorn', serif;
+  font-size: 30pt;
 }
 .container a {
   display: inline-block;
   position: relative;
   text-align: center;
-  color: #FF5252;
+  color: #ffffff;
   text-decoration: none;
   font-size: 20px;
   overflow: hidden;
@@ -160,7 +165,7 @@
 .container a:after {
   content: '';
   position: absolute;
-  background: #FF5252;
+  background: white;
   height: 2px;
   width: 0%;
   -webkit-transform: translateX(-50%);
@@ -174,14 +179,27 @@
   width: 100%;
 }
 
+/*
+#contactdetails {
+
+}
+#contactdetails a{
+  color: white;
+}
+#contactdetails a:after{
+  color: white;
+}
+*/
+
 h1 {
   position: relative;
   text-align: center;
   font-family: 'Vollkorn', serif;
-  color: #FF5252;
+  color: #000000;
 }
 
 .button_container {
+  color: white;
   position: fixed;
   top: 5%;
   right: 2%;
@@ -210,7 +228,7 @@ h1 {
   background: #FFF;
 }
 .button_container span {
-  background: #FF5252;
+  background: #000000;
   border: none;
   height: 5px;
   width: 100%;
@@ -230,7 +248,7 @@ h1 {
 
 .overlay {
   position: fixed;
-  background: #FF5252;
+  background: #000000;
   top: 0;
   left: 0;
   width: 100%;
