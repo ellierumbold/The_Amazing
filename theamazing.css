@@ -199,7 +199,6 @@ h1 {
 }
 
 .button_container {
-  color: white;
   position: fixed;
   top: 5%;
   right: 2%;
@@ -228,7 +227,7 @@ h1 {
   background: #FFF;
 }
 .button_container span {
-  background: #000000;
+  background: #ffffff;
   border: none;
   height: 5px;
   width: 100%;
