@@ -53,59 +53,59 @@
 }
 
 .social-button.facebook:before {
-  background-color: #3B5998;
+  background-color: #000000;
 }
 
 .social-button.facebook .fa {
-  color: #3B5998;
+  color: #000000;
 }
 
 .social-button.twitter:before {
-  background-color: #55acee;
+  background-color: #000000;
 }
 
 .social-button.twitter .fa {
-  color: #55acee;
+  color: #000000;
 }
 
 .social-button.website:before {
-  background-color: #767676;
+  background-color: #000000;
 }
 
 .social-button.website .fa {
-  color: #767676;
+  color: #000000;
 }
 
 .social-button.email:before {
-  background-color: #5f596d;
+  background-color: #000000;
 }
 
 .social-button.email .fa {
-  color: #5f596d;
+  color: #000000;
 }
 
 .social-button.youtube:before {
-  background-color: #bb0000;
+  background-color: #000000;
 }
 
 .social-button.youtube .fa {
-  color: #bb0000;
+  color: #000000;
 }
 
 .social-button.instagram:before {
-  background-color: #e95950;
+  background-color: #000000;
 }
 
 .social-button.instagram .fa {
-  color: #e95950;
+  color: #000000;
 }
 
 .social-button.spotify:before {
-  background-color: #00e461;
+  background-color: #000000;
 }
 
 .social-button.spotify .fa {
-  color: #00e461;
+  color: #000000;
 }
 
 /* social button colour fill */
@@ -126,12 +126,6 @@
   color: #fff;
   -webkit-transform: scale(1);
   transform: scale(1);
-}
-
-/*css for mailchimp*/
-
-#mc_embed_signup {
-  background-color: yellow;
 }
 
 
@@ -155,7 +149,7 @@
 }
 .container p {
   font-size: 20px;
-  color: grey;
+  color: white;
 }
 .container h2 {
   color: white;
